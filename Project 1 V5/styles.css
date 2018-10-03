@@ -1,0 +1,1282 @@
+html{
+	background-image: url("rockcolor.jpg")
+}
+
+
+div.artboard{
+	margin: auto;
+	position: relative;
+}
+
+
+
+
+
+
+
+/* Black Letter Box */
+
+div.letter{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 50px;
+	position: relative;
+	background-color: rgba(231,145,187,0);
+	transform: scale(.5);
+}
+
+.panel{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: cyan; 
+	left: -400px;
+	top: 100px;
+	opacity: .5;
+
+}
+
+.panel2{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background-color: cyan; 
+	left: -700px;
+	top: 400px;
+	opacity: .5;
+	transform: scale(.8);
+}
+
+.panel3{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background-color: cyan; 
+	left: 1300px;
+	top: -400px;
+	opacity: .5;
+	transform: scale(.25);
+}
+
+.panelNum{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background-color: magenta; 
+	left: -200px;
+	top: -300px;
+	opacity: .5;
+	transform: scale(.25);
+}
+
+.panelNum2{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	background-color: magenta; 
+	left: 1400px;
+	top: -300px;
+	opacity: .5;
+	transform: scale(.35);
+	
+}
+
+
+/* Neg Space Units */
+div.FxF{
+	width: 200px;
+	height:200px;
+	background-image: url("rockcolor.jpg");
+	position: relative;
+	opacity: 1;
+}
+
+div.TxO{
+	width:50px;
+	height:100px;
+	background-image: url("rockcolor.jpg");
+	position: relative;
+	opacity: 1;
+}
+
+/* A */
+
+
+div.FxF#A{
+	top: 100px;
+	left: 50px;
+}
+
+div.TxO#A2{
+	top: 100px;
+	left: 300px;
+}
+
+div.letter#one{
+	position: absolute;
+}
+
+/* B */
+
+div.FxF#B{
+	top: 0px;
+	left: 200px;
+}
+
+div.TxO#B{
+	top: 50px;
+	left: 200px;
+	width: 100px;
+	height: 50px;
+}
+
+div.letter#two{
+	position: absolute;
+	left: 220px;
+}
+
+/* C */
+
+div.FxF#C{
+	top: 100px;
+	left: 100px;
+}
+
+div.TxO#C{
+	top: -50px;
+	left: 300px;
+	width: 100px;
+}
+
+div.letter#three{
+	position: absolute;
+	left: 500px;
+}
+
+/* D */
+
+div.FxF#D{
+	top: 0px;
+	left: 0px;
+}
+
+div.TxO#D{
+	top: 50px;
+	left: 100px;
+	width: 50px;
+}
+
+div.letter#four{
+	position: absolute;
+	left: 400px;
+	top: 300px;
+}
+
+/* E */
+
+div.FxF#E{
+	top: 150px;
+	left: 200px;
+}
+
+div.TxO#E{
+	top: -150px;
+	left: 200px;
+	width: 100px;
+	height: 50px;
+}
+
+div.letter#five{
+	position: absolute;
+	left: 400px;
+	top: 500px;
+}
+
+/* F */
+
+div.FxF#F{
+	top: 200px;
+	left: 200px;
+}
+
+div.TxO#F{
+	top: -50px;
+	left: 300px;
+	width: 100px;
+	height: 50px;
+}
+
+div.TxO#F2{
+	top: -150px;
+	left: 200px;
+	width: 100px;
+	height: 50px;
+}
+
+div.letter#six{
+	position: absolute;
+	left: 0px;
+	top: 500px;
+}
+/* G */
+
+div.FxF#G{
+	top: 150px;
+	left: 0px;
+}
+
+div.TxO#G{
+	top: -150px;
+	left: 100px;
+	width: 100px;
+	height: 50px;
+}
+
+div.letter#seven{
+	position: absolute;
+	left: 900px;
+	top: 400px;
+	transform: scale(.8);
+}
+
+/* H */
+
+div.FxF#H{
+	top: 0px;
+	left: 200px;
+}
+
+div.TxO#H{
+	top: 100px;
+	left: 200px;
+	width: 100px;
+	height: 100px;
+}
+
+div.letter#eight{
+	position: absolute;
+	left: 900px;
+	top: -100px;
+}
+
+/* I */
+
+div.FxF#I{
+	top: 0px;
+	left: 0px;
+	height: 400px;
+}
+
+div.TxO#I{
+	top: -300px;
+	left: 300px;
+	width: 100px;
+	height: 50px;
+}
+
+
+div.TxO#I2{
+	top: -350px;
+	left: 200px;
+	width: 100px;
+	height: 50px;
+}
+
+div.letter#nine{
+	position: absolute;
+	left: 900px;
+	top: 125px;
+}
+
+
+/* J */
+
+
+div.FxF#J{
+	top: 100px;
+}
+
+div.TxO#J{
+	top: -200px;
+	left: 0px;
+}
+
+div.letter#ten{
+	position: absolute;
+	left: 600px;
+	top: 300px;
+}
+
+/* K */
+
+
+div.FxF#K{
+	left: 200px;
+}
+
+div.TxO#K{
+	left: 200px;
+	height: 50px;
+	width: 100px;
+}
+
+
+div.TxO#K2{
+	left: 200px;
+	height: 50px;
+	width: 100px;
+	top: 100px;
+}
+
+div.TxO#K3{
+	left: 300px;
+	height: 100px;
+	width: 100px;
+	top: -50px;
+}
+
+div.letter#eleven{
+	position: absolute;
+	left: 1225px;
+	top: 0px;
+	transform: scale(.8);
+}
+
+/* L */
+
+
+div.FxF#L{
+	left: 200px;
+}
+
+div.TxO#L{
+	left: 200px;
+	height: 50px;
+	width: 100px;
+}
+
+div.letter#twelve{
+	position: absolute;
+	left: -100px;
+	top: 150px;
+	transform: scale(.25);
+}
+
+/* M */
+
+
+div.FxF#M{
+	left: 100px;
+	height: 50px;
+	width:300px;
+
+}
+
+div.TxO#M{
+	left: 100px;
+	height: 100px;
+	width: 50px;
+	top: 250px;
+}
+
+div.TxO#M2{
+	left: 250px;
+	height: 100px;
+	width: 50px;
+	top: 150px;
+}
+
+div.letter#thirteen{
+	position: absolute;
+	left: 0px;
+	top: 150px;
+	transform: scale(.25);
+}
+
+/* N */
+
+
+div.FxF#N{
+	left: 100px;
+	height: 50px;
+	width:300px;
+
+}
+
+div.TxO#N{
+	left: 100px;
+	height: 200px;
+	width: 200px;
+	top: 150px;
+}
+
+
+div.letter#fourteen{
+	position: absolute;
+	left: 0px;
+	top: 250px;
+	transform: scale(.25);
+}
+
+/* O */
+
+
+div.FxF#O{
+	left: 100px;
+	top: 100px;
+	height: 200px;
+	width:200px;
+}
+
+div.letter#fifteen{
+	position: absolute;
+	left: 100px;
+	top: 250px;
+	transform: scale(.25);
+}
+
+/* P */
+
+div.FxF#P{
+	top: 200px;
+	left: 200px;
+}
+
+div.TxO#P{
+	top: -150px;
+	left: 200px;
+	width: 100px;
+	height: 50px;
+}
+
+div.letter#sixteen{
+	position: absolute;
+	left: 1300px;
+	top: 400px;
+	transform: scale(.8);
+}
+
+/* Q */
+
+div.FxF#Q{
+	top: 200px;
+}
+
+div.TxO#Q{
+	top: -150px;
+	left: 100px;
+	width: 100px;
+	height: 50px;
+}
+
+div.letter#seventeen{
+	position: absolute;
+	left: 2200px;
+	top: 0px;
+	transform: scale(.25);
+}
+
+/* R */
+
+
+div.FxF#R{
+	left: 100px;
+	height: 50px;
+	width:300px;
+
+}
+
+div.TxO#R{
+	left: 200px;
+	height: 200px;
+	width: 200px;
+	top: 150px;
+}
+
+div.letter#eighteen{
+	position: absolute;
+	left: 2000px;
+	top: 0px;
+	transform: scale(.25);
+}
+
+/* S */
+
+div.FxF#S{
+	top: 150px;
+	left: 0px;
+}
+
+div.TxO#S{
+	top: -150px;
+	left: 300px;
+	width: 100px;
+	height: 50px;
+}
+
+div.letter#nineteen{
+	position: absolute;
+	left: 2000px;
+	top: 200px;
+	transform: scale(.5);
+}
+
+/* T */
+
+div.FxF#T{
+	top: 150px;
+	left: 200px;
+}
+
+div.TxO#T{
+	top: -200px;
+	left: 200px;
+	width: 200px;
+	height: 50px;
+}
+
+div.letter#twenty{
+	position: absolute;
+	left: 2000px;
+	top: 500px;
+	transform: scale(.5);
+}
+
+/* U */
+
+
+div.FxF#U{
+	top: 350;	
+	height: 50px;
+	width:300px;
+
+}
+
+div.TxO#U{
+	left: 100px;
+	height: 200px;
+	width: 200px;
+	top: -50px;
+}
+
+div.letter#twentyone{
+	position: absolute;
+	left: 1800px;
+	top: -100px;
+	transform: scale(.5);
+}
+
+/* V */
+
+
+div.FxF#V{
+	top: 350;	
+	height: 50px;
+	width:100px;
+
+}
+
+div.FxF#V2{
+	top: 300;	
+	height: 50px;
+	width:100px;
+	left: 300px;
+
+}
+
+div.TxO#V{
+	left: 150px;
+	height: 300px;
+	width: 100px;
+	top: -100px;
+}
+
+div.letter#twentytwo{
+	position: absolute;
+	left: 1600px;
+	top: -100px;
+	transform: scale(.25);
+}
+
+/* W */
+
+
+div.FxF#W{
+	left: 100px;
+	height: 300px;
+	width: 50px;
+}
+
+
+div.TxO#W{
+	left: 250px;
+	height: 300px;
+	width: 50px;
+	top: -300px;
+}
+
+div.letter#twentythree{
+	position: absolute;
+	left: 1500px;
+	top: 100px;
+	transform: scale(.25);
+}
+
+/* X */
+
+
+div.FxF#X1{
+	height: 200px;
+	width: 50px;
+	top: 100px;
+}
+
+div.FxF#X2{
+	height: 200px;
+	width: 50px;
+	top: -100px;
+	left: 350px;
+}
+
+div.FxF#X3{
+	height: 50px;
+	width: 200px;
+	top: -400px;
+	left: 100px;
+}
+
+div.FxF#X4{
+	height: 50px;
+	width: 200px;
+	top: -100px;
+	left: 100px;
+}
+
+div.letter#twentyfour{
+	position: absolute;
+	left: 1650px;
+	top: 100px;
+	transform: scale(.5);
+}
+/* Y */
+
+
+div.FxF#Y{
+	top: 300;	
+	height: 50px;
+	width:300px;
+
+}
+
+div.TxO#Y{
+	left: 50px;
+	height: 200px;
+	width: 200px;
+	top: -50px;
+}
+
+div.letter#twentyfive{
+	position: absolute;
+	left: 1650px;
+	top: 300px;
+	transform: scale(.5);
+}
+
+/* Z */
+
+
+div.FxF#Z{
+	top: 300;	
+	height: 50px;
+	width:300px;
+	left: 100px;
+
+}
+
+div.TxO#Z{
+	height: 50px;
+	width: 100px;
+	top: 200px;
+	left: 300px;
+}
+
+div.FxF#Z1{
+	height: 50px;
+	width:300px;
+
+}
+
+div.TxO#Z1{
+	height: 50px;
+	width: 100px;
+}
+
+div.letter#twentysix{
+	position: absolute;
+	left: 1850px;
+	top: 200px;
+	transform: scale(.25);
+}
+
+/* zero */
+
+
+div.FxF#N0{
+	left: 100px;
+	top: 100px;
+	height: 200px;
+	width:200px;
+}
+
+div.FxF#N01{
+	left: 150px;
+	top: -50px;
+	height: 100px;
+	width: 100px;
+}
+
+div.letter#NumZero{
+	position: absolute;
+	left: -100px;
+	top: 350px;
+	transform: scale(.25);
+}
+
+/* One */
+
+
+div.FxF#N1{
+	top: 100px;
+}
+
+div.TxO#N1{
+	top: -200px;
+	left: 0px;
+	width: 150;
+}
+
+div.TxO#N1b{
+	width: 100;
+}
+
+div.letter#NumOne{
+	position: absolute;
+	left: 0px;
+	top: 350px;
+	transform: scale(.25);
+}
+
+/* Two */
+
+
+div.FxF#N2{
+	top: 300;	
+	height: 50px;
+	width:300px;
+	left: 100px;
+
+}
+
+div.FxF#N2b{
+	height: 50px;
+	width:200px;
+	top: 50;
+	left: 100;
+
+}
+
+div.TxO#N2{
+	height: 100px;
+	width: 100px;
+	top: 50px;
+}
+
+div.letter#NumTwo{
+	position: absolute;
+	left: 150px;
+	top: 350px;
+	transform: scale(.25);
+}
+/* Three */
+
+
+div.FxF#N3{
+	left: 0;
+	height: 50px;
+	width: 300px;	
+	top: 100px;
+}
+
+
+div.TxO#N3{
+	height: 50px;
+	width: 300px;
+	top: 200px;
+}
+
+div.letter#NumThree{
+	position: absolute;
+	left: 250px;
+	top: 450px;
+	transform: scale(.25);
+}
+
+/* Four */
+
+
+div.FxF#N4{
+	left: 100px;	
+}
+
+
+div.TxO#N4{
+	height: 100px;
+	width: 300px;
+	top: 100px;
+}
+
+div.letter#NumFour{
+	position: absolute;
+	left: 220px;
+	top: 200px;
+	transform: scale(.35);
+}
+
+/* five */
+
+
+div.FxF#N5{
+	top: 50;	
+	height: 50px;
+	width:300px;
+	left: 100px;
+
+}
+
+div.TxO#N5{
+	height: 50px;
+	width: 100px;
+	top: -50px;
+	left: 300px;
+}
+
+div.FxF#N5b{
+	top: 50px;
+
+}
+
+div.letter#NumFive{
+	position: absolute;
+	left: 700px;
+	top: 100px;
+	transform: scale(.35);
+}
+
+/* six */
+
+
+div.FxF#N6{
+	top: 50;	
+	left: 200px;
+
+}
+
+div.TxO#N6{
+	width: 100;
+	height: 50;
+	top: 100;
+	left: 200;
+}
+
+div.letter#NumSix{
+	position: absolute;
+	left: 700px;
+	top: -50px;
+	transform: scale(.35);
+}
+
+/* seven */
+
+
+div.FxF#N7{
+	top: 200;	
+
+}
+
+div.TxO#N7{
+	height: 100;
+	left: 100;
+	top: -100;
+	width: 100;
+
+}
+
+div.letter#NumSeven{
+	position: absolute;
+	left: 1480px;
+	top: -50px;
+	transform: scale(.35);
+}
+
+/* eight */
+
+
+div.FxF#N8{
+	top: 200;
+	height: 100;
+	width: 100;	
+	left: 150;
+	top: 200;
+
+}
+
+div.TxO#N8{
+	width: 100;
+	height: 50;
+	top: -50;
+	left: 150;
+	
+}
+
+div.letter#NumEight{
+	position: absolute;
+	left: 1600px;
+	top: 450px;
+	transform: scale(.25);
+}
+
+/* nine */
+
+
+div.FxF#N9{
+	top: 200;
+}
+
+div.TxO#N9{
+	width: 100;
+	height: 50;
+	top: -100;
+	left: 100;
+	
+}
+
+div.letter#NumNine{
+	position: absolute;
+	left: 1700px;
+	top: 550px;
+	transform: scale(.25);
+}
+
+/* directory */
+
+.directory{
+	width: 160px;
+	height: 100%;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	background-color: rgba(0,0,0,.5);
+}
+
+div.key{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	background-color: cyan;
+	transform: scale(.1);
+	opacity: .5;
+	z-index: 101;
+
+}
+
+div.key#keyA{
+	left: -170px;
+	top: 530px;
+	z-index: 100;
+	top: -170px;
+	position: absolute;
+	opacity: 0;
+
+
+}
+div.key#keyB{
+	left: -120px;
+	z-index: 100;
+	top: -170px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyC{
+	left: -70px;
+	z-index: 100;
+	top: -170px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyD{
+	left: -170px;
+	z-index: 100;
+	top: -120px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyE{
+	left: -120px;
+	z-index: 100;
+	top: -120px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyF{
+	left: -70px;
+	z-index: 100;
+	top: -120px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyG{
+	left: -170px;
+	z-index: 100;
+	top: -70px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyH{
+	left: -120px;
+	z-index: 100;
+	top: -70px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyI{
+	left: -70px;
+	z-index: 100;
+	top: -70px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyJ{
+	left: -170px;
+	z-index: 100;
+	top: -20px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyK{
+	left: -120px;
+	z-index: 100;
+	top: -20px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyL{
+	left: -70px;
+	z-index: 100;
+	top: -20px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyM{
+	left: -170px;
+	z-index: 100;
+	top: 30px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyN{
+	left: -120px;
+	z-index: 100;
+	top: 30px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyO{
+	left: -70px;
+	z-index: 100;
+	top: 30px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyP{
+	left: -170px;
+	z-index: 100;
+	top: 80px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyQ{
+	left: -120px;
+	z-index: 100;
+	top: 80px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyR{
+	left: -70px;
+	z-index: 100;
+	top: 80px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyS{
+	left: -170px;
+	z-index: 100;
+	top: 130px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyT{
+	left: -120px;
+	z-index: 100;
+	top: 130px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyU{
+	left: -70px;
+	z-index: 100;
+	top: 130px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyV{
+	left: -170px;
+	z-index: 100;
+	top: 180px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyW{
+	left: -120px;
+	z-index: 100;
+	top: 180px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyX{
+	left: -70px;
+	z-index: 100;
+	top: 180px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyY{
+	left: -170px;
+	z-index: 100;
+	top: 230px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyZ{
+	left: -120px;
+	z-index: 100;
+	top: 230px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyzero{
+	left: -70px;
+	z-index: 100;
+	top: 430px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyone{
+	left: -170px;
+	z-index: 100;
+	top: 280px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keytwo{
+	left: -120px;
+	z-index: 100;
+	top: 280px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keythree{
+	left: -70px;
+	z-index: 100;
+	top: 280px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyfour{
+	left: -170px;
+	z-index: 100;
+	top: 330px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyfive{
+	left: -120px;
+	z-index: 100;
+	top: 330px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keysix{
+	left: -70px;
+	z-index: 100;
+	top: 330px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyseven{
+	left: -170px;
+	z-index: 100;
+	top: 380px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keyeight{
+	left: -120px;
+	z-index: 100;
+	top: 380px;
+	position: absolute;
+	opacity: 0;
+}
+
+div.key#keynine{
+	left: -70px;
+	z-index: 100;
+	top: 380px;
+	position: absolute;
+	opacity: 0;
+}
+

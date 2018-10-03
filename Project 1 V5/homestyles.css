@@ -1,0 +1,176 @@
+a{
+	width: 100%;
+	height: 100%;
+
+}
+
+p{
+	position: fixed;
+	left: 149px;
+	top: 58%;
+	color: white;
+	font-family: 'Share Tech Mono';
+	opacity: .8;
+}
+#wander{
+	background-image: url("rockcolor.jpg");
+	width: 4000px;
+	height: 4000px;
+}
+
+
+div.letter{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 50px;
+	position: relative;
+	background-color: black;
+	transform: scale(.3);
+	float: left;
+	opacity: .45;
+}
+
+div.FxF{
+	width: 200px;
+	height:200px;
+	position: relative;
+	background-image: url("rockcolorinverse.jpg");
+	background-size: auto;
+	opacity: 1;
+}
+
+div.TxO{
+	width:50px;
+	height:100px;
+	position: relative;
+	background-size: auto;
+	background-image: url("rockcolorinverse.jpg");
+	opacity: 1;
+}
+
+/* W */
+
+div.FxF#W{
+	left: 100px;
+	height: 300px;
+	width: 50px;
+}
+
+
+div.TxO#W{
+	left: 250px;
+	height: 300px;
+	width: 50px;
+	top: -300px;
+}
+
+#one{
+	position: fixed;
+	left: 10px;
+	top: 25%;
+}
+
+/* A */
+
+
+div.FxF#A{
+	top: 100px;
+	left: 50px;
+}
+
+div.TxO#A{
+	top: 100px;
+	left: 300px;
+}
+
+#two{
+	position: fixed;
+	left: 140px;
+	top: 25%;
+}
+
+/* N */
+
+div.FxF#N{
+	left: 100px;
+	height: 50px;
+	width:300px;
+
+}
+
+div.TxO#N{
+	left: 100px;
+	height: 200px;
+	width: 200px;
+	top: 150px;
+}
+
+#three{
+	position: fixed;
+	left: 270px;
+	top: 25%;
+}
+
+/* D */
+
+div.FxF#D{
+	top: 0px;
+	left: 0px;
+}
+
+div.TxO#D{
+	top: 50px;
+	left: 100px;
+	width: 100px;
+	height: 50px;
+}
+
+#four{
+	position: fixed;
+	left: 400px;
+	top: 25%;
+}
+
+/* E */
+
+div.FxF#E{
+	top: 150px;
+	left: 200px;
+}
+
+div.TxO#E{
+	top: -150px;
+	left: 200px;
+	width: 100px;
+	height: 50px;
+}
+
+#five{
+	position: fixed;
+	left: 530px;
+	top: 25%;
+}
+
+/* R */
+
+
+div.FxF#R{
+	left: 100px;
+	height: 50px;
+	width:300px;
+
+}
+
+div.TxO#R{
+	left: 200px;
+	height: 200px;
+	width: 200px;
+	top: 150px;
+}
+
+#six{
+	position: fixed;
+	left: 660px;
+	top: 25%;
+}
